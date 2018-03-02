@@ -1,5 +1,13 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<form id="uploadForm" enctype="multipart/form-data" method="post">
+		<input type="file" name="logo" />
+		<input type="submit" value="Upload File" name="submit">
+	</form>
+</body>
+</html>
